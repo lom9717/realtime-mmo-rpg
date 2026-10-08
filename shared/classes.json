@@ -1,0 +1,292 @@
+{
+  "classes": [
+    {
+      "id": "warrior",
+      "name": "전사",
+      "description": "높은 체력과 공격력의 근접 전사",
+      "baseStats": { "health": 150, "mana": 50, "attack": 30, "defense": 25, "speed": 20 }
+    },
+    {
+      "id": "mage",
+      "name": "마법사",
+      "description": "강력한 마법 공격력의 원거리 캐스터",
+      "baseStats": { "health": 80, "mana": 150, "attack": 15, "defense": 10, "speed": 25 }
+    },
+    {
+      "id": "thief",
+      "name": "도적",
+      "description": "빠른 속도와 높은 회피율의 민첩한 캐릭터",
+      "baseStats": { "health": 90, "mana": 60, "attack": 25, "defense": 12, "speed": 40 }
+    },
+    {
+      "id": "archer",
+      "name": "궁수",
+      "description": "원거리 정밀 공격의 활 전문가",
+      "baseStats": { "health": 100, "mana": 70, "attack": 28, "defense": 15, "speed": 30 }
+    },
+    {
+      "id": "cleric",
+      "name": "신관",
+      "description": "치유와 회복 마법의 지원 역할",
+      "baseStats": { "health": 110, "mana": 120, "attack": 18, "defense": 20, "speed": 22 }
+    },
+    {
+      "id": "paladin",
+      "name": "기사",
+      "description": "균형잡힌 공방과 신성한 힘을 가진 전사",
+      "baseStats": { "health": 140, "mana": 80, "attack": 26, "defense": 30, "speed": 18 }
+    },
+    {
+      "id": "berserker",
+      "name": "광전사",
+      "description": "광분 상태로 강력한 공격을 퍼붓는 전사",
+      "baseStats": { "health": 160, "mana": 40, "attack": 35, "defense": 18, "speed": 22 }
+    },
+    {
+      "id": "shadow_dancer",
+      "name": "그림자무용수",
+      "description": "암흑 마법과 검술을 조합한 암살자",
+      "baseStats": { "health": 85, "mana": 90, "attack": 32, "defense": 14, "speed": 38 }
+    },
+    {
+      "id": "templar",
+      "name": "성기사",
+      "description": "신성한 빛으로 적을 처치하는 기사",
+      "baseStats": { "health": 135, "mana": 100, "attack": 28, "defense": 28, "speed": 20 }
+    },
+    {
+      "id": "sorcerer",
+      "name": "흑마술사",
+      "description": "강력한 저주와 어둠의 마법을 사용",
+      "baseStats": { "health": 75, "mana": 160, "attack": 12, "defense": 8, "speed": 24 }
+    },
+    {
+      "id": "druid",
+      "name": "드루이드",
+      "description": "자연의 힘으로 치유하고 변신하는 주술사",
+      "baseStats": { "health": 120, "mana": 110, "attack": 22, "defense": 22, "speed": 26 }
+    },
+    {
+      "id": "monk",
+      "name": "무승",
+      "description": "내공으로 강화된 근접 타격 기술의 마스터",
+      "baseStats": { "health": 105, "mana": 95, "attack": 29, "defense": 16, "speed": 35 }
+    },
+    {
+      "id": "necromancer",
+      "name": "죽음의주술사",
+      "description": "죽은 것을 소환하는 암흑 마법사",
+      "baseStats": { "health": 95, "mana": 140, "attack": 20, "defense": 12, "speed": 23 }
+    },
+    {
+      "id": "ranger",
+      "name": "레인저",
+      "description": "자연과 조화되는 추적자이자 사냥꾼",
+      "baseStats": { "health": 110, "mana": 75, "attack": 27, "defense": 17, "speed": 32 }
+    },
+    {
+      "id": "samurai",
+      "name": "사무라이",
+      "description": "명예를 중시하는 동양의 검호",
+      "baseStats": { "health": 125, "mana": 65, "attack": 32, "defense": 22, "speed": 28 }
+    },
+    {
+      "id": "shaman",
+      "name": "무당",
+      "description": "영혼과 소통하며 기원하는 주술사",
+      "baseStats": { "health": 100, "mana": 130, "attack": 19, "defense": 18, "speed": 25 }
+    },
+    {
+      "id": "gunner",
+      "name": "총잡이",
+      "description": "화약의 힘을 사용하는 현대식 전사",
+      "baseStats": { "health": 105, "mana": 50, "attack": 31, "defense": 16, "speed": 29 }
+    },
+    {
+      "id": "dancer",
+      "name": "무희",
+      "description": "우아한 춤으로 적을 혼란시키는 여전사",
+      "baseStats": { "health": 95, "mana": 85, "attack": 26, "defense": 13, "speed": 36 }
+    },
+    {
+      "id": "summoner",
+      "name": "소환사",
+      "description": "강력한 피조물을 소환하는 마법사",
+      "baseStats": { "health": 85, "mana": 150, "attack": 14, "defense": 11, "speed": 26 }
+    },
+    {
+      "id": "mystic",
+      "name": "신비술사",
+      "description": "시간과 공간을 다루는 신비로운 마법사",
+      "baseStats": { "health": 90, "mana": 145, "attack": 16, "defense": 12, "speed": 28 }
+    },
+    {
+      "id": "assassin",
+      "name": "암살자",
+      "description": "치명적인 일격으로 적을 쓰러뜨리는 전문가",
+      "baseStats": { "health": 80, "mana": 55, "attack": 38, "defense": 10, "speed": 42 }
+    },
+    {
+      "id": "crusader",
+      "name": "성십자군",
+      "description": "신의 가호를 받은 성스러운 전사",
+      "baseStats": { "health": 145, "mana": 90, "attack": 27, "defense": 32, "speed": 19 }
+    },
+    {
+      "id": "alchemist",
+      "name": "연금술사",
+      "description": "강력한 약물로 자신을 강화하는 과학자",
+      "baseStats": { "health": 100, "mana": 120, "attack": 23, "defense": 19, "speed": 27 }
+    },
+    {
+      "id": "bard",
+      "name": "음유시인",
+      "description": "음악의 힘으로 아군을 강화하는 지원가",
+      "baseStats": { "health": 105, "mana": 110, "attack": 20, "defense": 15, "speed": 28 }
+    },
+    {
+      "id": "knight_commander",
+      "name": "기사단장",
+      "description": "전투 경험이 풍부한 지휘관 역할의 기사",
+      "baseStats": { "health": 150, "mana": 70, "attack": 30, "defense": 33, "speed": 17 }
+    },
+    {
+      "id": "witch",
+      "name": "마녀",
+      "description": "저주와 변환 마법을 다루는 마법사",
+      "baseStats": { "health": 88, "mana": 155, "attack": 13, "defense": 9, "speed": 27 }
+    },
+    {
+      "id": "vampire",
+      "name": "뱀파이어",
+      "description": "생명력을 빨아먹으며 강해지는 불사의 존재",
+      "baseStats": { "health": 120, "mana": 100, "attack": 28, "defense": 20, "speed": 31 }
+    },
+    {
+      "id": "werewolf",
+      "name": "늑대인간",
+      "description": "야수의 본능으로 강해지는 변신 전사",
+      "baseStats": { "health": 130, "mana": 60, "attack": 33, "defense": 21, "speed": 34 }
+    },
+    {
+      "id": "oracle",
+      "name": "신탁가",
+      "description": "미래를 본다는 신비로운 예언자",
+      "baseStats": { "health": 92, "mana": 135, "attack": 17, "defense": 13, "speed": 26 }
+    },
+    {
+      "id": "demon_hunter",
+      "name": "악마사냥꾼",
+      "description": "악마를 추적하고 처치하는 전문가",
+      "baseStats": { "health": 115, "mana": 85, "attack": 30, "defense": 19, "speed": 33 }
+    },
+    {
+      "id": "angel",
+      "name": "천사",
+      "description": "빛의 축복을 받은 신성한 존재",
+      "baseStats": { "health": 125, "mana": 125, "attack": 25, "defense": 26, "speed": 25 }
+    },
+    {
+      "id": "reaper",
+      "name": "죽음의 사신",
+      "description": "영혼을 수확하는 저승의 사자",
+      "baseStats": { "health": 110, "mana": 105, "attack": 34, "defense": 17, "speed": 32 }
+    },
+    {
+      "id": "time_mage",
+      "name": "시간마법사",
+      "description": "시간을 조종하는 강력한 마법사",
+      "baseStats": { "health": 85, "mana": 165, "attack": 11, "defense": 10, "speed": 29 }
+    },
+    {
+      "id": "space_wizard",
+      "name": "공간마법사",
+      "description": "공간을 이동시키는 신비로운 마법사",
+      "baseStats": { "health": 88, "mana": 160, "attack": 12, "defense": 11, "speed": 30 }
+    },
+    {
+      "id": "frost_mage",
+      "name": "서리마법사",
+      "description": "얼음 마법으로 적을 동결시키는 마법사",
+      "baseStats": { "health": 90, "mana": 140, "attack": 18, "defense": 14, "speed": 24 }
+    },
+    {
+      "id": "fire_mage",
+      "name": "화염마법사",
+      "description": "강렬한 불의 마법으로 공격하는 마법사",
+      "baseStats": { "health": 95, "mana": 145, "attack": 20, "defense": 12, "speed": 23 }
+    },
+    {
+      "id": "lightning_mage",
+      "name": "번개마법사",
+      "description": "전기 마법으로 빠르게 공격하는 마법사",
+      "baseStats": { "health": 87, "mana": 150, "attack": 19, "defense": 11, "speed": 31 }
+    },
+    {
+      "id": "earth_guardian",
+      "name": "대지수호자",
+      "description": "흙의 힘으로 방어하는 거대한 전사",
+      "baseStats": { "health": 160, "mana": 80, "attack": 24, "defense": 35, "speed": 16 }
+    },
+    {
+      "id": "wind_dancer",
+      "name": "바람무용수",
+      "description": "바람 속도로 재빠르게 움직이는 전사",
+      "baseStats": { "health": 92, "mana": 100, "attack": 26, "defense": 14, "speed": 40 }
+    },
+    {
+      "id": "sacred_sage",
+      "name": "성스러운현인",
+      "description": "고대의 지혜로 모든 것을 아는 현자",
+      "baseStats": { "health": 105, "mana": 140, "attack": 16, "defense": 20, "speed": 24 }
+    },
+    {
+      "id": "dark_knight",
+      "name": "검은기사",
+      "description": "어둠의 힘으로 강해지는 타락한 기사",
+      "baseStats": { "health": 135, "mana": 90, "attack": 31, "defense": 24, "speed": 21 }
+    },
+    {
+      "id": "light_warrior",
+      "name": "빛의전사",
+      "description": "빛으로 강화된 순수한 전사",
+      "baseStats": { "health": 140, "mana": 95, "attack": 29, "defense": 28, "speed": 22 }
+    },
+    {
+      "id": "chaos_knight",
+      "name": "혼돈의기사",
+      "description": "불규칙한 혼돈의 힘을 사용하는 전사",
+      "baseStats": { "health": 130, "mana": 85, "attack": 32, "defense": 20, "speed": 27 }
+    },
+    {
+      "id": "hybrid_warrior",
+      "name": "이중전사",
+      "description": "검과 마법을 동시에 다루는 전사",
+      "baseStats": { "health": 115, "mana": 100, "attack": 28, "defense": 21, "speed": 28 }
+    },
+    {
+      "id": "spirit_master",
+      "name": "영혼의주인",
+      "description": "영혼을 제어하는 강력한 마법사",
+      "baseStats": { "health": 100, "mana": 150, "attack": 17, "defense": 15, "speed": 27 }
+    },
+    {
+      "id": "void_walker",
+      "name": "공허의행인",
+      "description": "공허의 차원을 오가는 신비한 존재",
+      "baseStats": { "health": 93, "mana": 155, "attack": 15, "defense": 12, "speed": 32 }
+    },
+    {
+      "id": "chimera_tamer",
+      "name": "키메라조련사",
+      "description": "강력한 수룡을 조련하는 전문가",
+      "baseStats": { "health": 110, "mana": 95, "attack": 29, "defense": 18, "speed": 29 }
+    },
+    {
+      "id": "forge_master",
+      "name": "대장장이",
+      "description": "마법 무기를 만들고 사용하는 기술자",
+      "baseStats": { "health": 125, "mana": 85, "attack": 31, "defense": 23, "speed": 24 }
+    }
+  ]
+}
